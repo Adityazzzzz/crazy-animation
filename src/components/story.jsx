@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useRef } from "react";
 
 import Button from "./button";
-import AnimatedTitle from "./AnimatedTitle";
+import AnimatedTitle from "./animatedtitle";
 
 const FloatingImage = () => {
   const frameRef = useRef(null);
